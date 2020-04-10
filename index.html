@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W1-D5</title>
-    <!-- <link rel="stylesheet" href="mystyle.css"> -->
     <link rel="stylesheet"  type="text/css" href="style.css" />
 </head>
 <body>
-    <div style="background-color: #08AEEA; background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);     width: 300px; height: 300px; padding:20px; margin: 10px; border: 5px solid green;">
-        I'm the content of the div
+
+    <div id="nav">
+        <div class="navItem">Menu voice</div>
+        <div class="navItem">Menu voice</div>
+        <div class="navItem">Menu voice</div>
+        <div class="navItem">Menu voice</div>
+        <div class="navItem">Menu voice</div>
     </div>
-    <p>Another thing</p>
-    <p>Good evening everyone!</p>
+
+
+    <div id="mainDiv">
+        <div class="insideDiv">
+            <p>
+                 Div1
+            </p>
+        </div>
+        <div class="insideDiv">
+            Div2 
+        </div>
+        <div style="color:green;" class="subtitle insideDiv">
+            Div3
+        </div>
+    </div>
+
+    <div id="secondDiv">
+        <div class="flexwrap">Something</div>
+        <div class="flexwrap">Something</div>
+        <div class="flexwrap">Something</div>
+    </div>
+
+    <!-- To create easily the code before 
+        div#secondDiv>div.flexwrap*3  -->
+    <!-- <div id="secondDiv">
+        <div class="flexwrap"></div>
+        <div class="flexwrap"></div>
+        <div class="flexwrap"></div>
+    </div> 
+
+    To write in multiple line, 
+    just hold your ALT or OPTION key and click where you want to write
+    -->
+
+    <div class="insideDiv">
+        I'm an outsider
+    </div>
+
+    <p class="subtitle">I'm not fancy</p>
+    <p class="subtitle fancyText">I'm fancy!</p>
+    <span class="subtitle">I'm not fancy</span>
+    <span class="subtitle fancyText">I'm fancy!</span>
+    
 </body>
 </html>
